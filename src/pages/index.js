@@ -1,6 +1,6 @@
 import React from 'react';
-
 import Text from '../Components/Text';
+import CategoryTitle from '../Components/CategoryTitle';
 
 export default () => (
   <div>
@@ -9,5 +9,6 @@ export default () => (
       and establish a brand for product from the ground up. Harbor was selected as the theme,
       playing into the idea of calmness and as a metaphor for the safe space we wanted to create.
     </Text>
+    <CategoryTitle>Category Title</CategoryTitle>
   </div>
 );
