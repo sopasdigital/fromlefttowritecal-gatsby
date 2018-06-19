@@ -5,18 +5,18 @@ import './index.css';
 
 export default class Heading extends Component {
   render() {
-    const { level } = this.props;
-    const h = `h${level}`;
+    // const { level } = this.props;
+    // const h = `h${level}`;
 
     return (
-      <h className="Heading">
+      <h1 className="Heading">
         {this.props.children}
-      </h>
+      </h1>
     );
   }
 }
 
 Heading.propTypes = {
   children: PropTypes.node.isRequired,
-  level: PropTypes.oneOf([1, 2, 3, 4, 5, 6]).isRequired,
+  // level: PropTypes.oneOf(['1', '2', '3', '4', '5', '6']).isRequired,
 };
