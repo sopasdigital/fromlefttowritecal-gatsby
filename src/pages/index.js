@@ -2,6 +2,7 @@ import React from 'react';
 import Text from '../Components/Text';
 import CategoryTitle from '../Components/CategoryTitle';
 import Image from '../Components/Image';
+import Modal from '../Components/Modal';
 
 export default () => (
   <div>
@@ -12,5 +13,8 @@ export default () => (
     </Text>
     <CategoryTitle>Category Title</CategoryTitle>
     <Image src="http://via.placeholder.com/350x150" alt="Placeholder Text for Image" />
+    <Modal>
+      Here&apos;s some content for the modal
+    </Modal>
   </div>
 );
